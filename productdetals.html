@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redstore | Ecommerce website</title>
+    <link rel="stylesheet" href="styles/stylered.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;600;700&family=Open+Sans:ital@1&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+     <div class="container">
+         <div class="navbar">
+              <div class="logo">
+               <img src="images/logo.png" width="125px">
+             </div>
+             <nav>
+               <ul id="Menu-items">
+                  <li><a Href="indexred.html">Home</a></li>
+                  <li><a Href="minor2.html">Products</a></li>
+                  <li><a Href="#">About</a></li>
+                  <li><a Href="#">Contact</a></li>
+                  <li><a Href="account.html">Account</a></li>
+             </ul>
+             </nav>
+             <img src="images/cart.png" width="30px" height="30px">
+             <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+         </div>
+         <!-- single products detail -->
+         <div class="small-container single-product">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/gallery-1.jpg" width="100%" id="ProductImg">
+                    <div class="small-img-row">
+                        <div class="small-img-col">
+                            <img src="images/gallery-1.jpg" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="images/gallery-2.jpg" width="100%"  class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="images/gallery-3.jpg" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="images/gallery-4.jpg" width="100%" class="small-img">
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+                <div class="col-2">
+                    <p>Home / T-shirt</p>
+                    <h1>Red Printed T-Shirts by HRX</h1>
+                    <h4>$50.00</h4>
+                    <select>
+                        <option>Selct Size</option>
+                        <option>XXL</option>
+                        <option>XL</option>
+                        <option>Large</option>
+                        <option>Medium</option>
+                        <option>Small</option>
+                    </select>
+                    <input type="number" value="1">
+                    <a href="" class="btn">Add to cart</a>
+                    <h3>Product details  <i class="fa fa-indent"></i></h3>
+                    <br>
+                    <p>Give your summer wardrobe a style upgrade with HRX 
+                        Men's Active T-shirt. team it with a pairnof shorts for 
+                        your morning workout or a denims for an evening out with the Guys.
+                    </p>
+                </div>
+            </div>
+         </div>
+<!-- ---------title---------------- -->
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Related products</h2>
+        <P>View more</P>
+    </div>
+</div>
+
+
+
+          <div class="small-container">
+             <div class="row">
+             <div class="col-4">
+                <img src="images/product-9.jpg">
+                <h4>Red printed t-shirt</h4>
+                <div class="ratingg">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <!---<i class="fas fa-star-half-alt"></i>--->
+                </div>
+                <p>$50.00</p>
+             </div>
+             <div class="col-4">
+                <img src="images/product-10.jpg">
+                <h4>HRX Casual Shoes</h4>
+                <div class="ratingg">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+             </div>
+             <div class="col-4">
+                <img src="images/product-11.jpg">
+                <h4>Casual Trackpants</h4>
+                <div class="ratingg">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <!---<i class="fas fa-star-half-alt"></i>--->
+                </div>
+                <p>$50.00</p>
+             </div>
+             <div class="col-4">
+                <img src="images/product-12.jpg">
+                <h4>Blue Polo t-shirt</h4>
+                <div class="ratingg">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+         </div>
+          </div>
+         </div>
+     </div>
+     <!------------------------------------------fotter---------------------------------------------------------------->
+
+     <div class="footer">
+     <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our app</h3>
+                <p>Download our app for Android ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo-white.png">
+                <p>Our purpose is to sustainably make pleasures and <br>Benefits of Sports Accessible To The Many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Usefull Links</h3>
+              <ul>
+                <li>Coupons</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
+            </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3>Follow us</h3>
+              <ul>
+                <li>Instagram</li>
+                <li>Twiiter</li>
+                <li>Fcaebook</li>
+                <li>Youtube</li>
+            </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2023 - Red stores</p>
+<!-- ---------------------------------------js---------------------------- -->
+    <script src="scripts/indexred.js"></script>
+</body>
+</html>
